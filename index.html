@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Продукты</title>
+		<link rel="stylesheet" href="./style.css" />
+	</head>
+	<body>
+    <div class="header">
+			<nav class="btn-select">
+      	<button onclick="getProducts()" class="btn-a" id="products-page">Продукты</button>
+      	<button onclick="getCategories()" class="btn-a" id="categories-page">Категории</button>
+      	<button onclick="getUsers()" class="btn-a" id="users-page">Пользователи</button>
+    	</nav>
+    </div>
+		<ul id="u" class="prod-grid"></ul>
+		<div class="btn-center">
+			<button id="b" class="show-more">Показать еще</button>
+		</div>
+		<script src="./index.js"></script>
+	</body>
+</html>
